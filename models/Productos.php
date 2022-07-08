@@ -1,4 +1,5 @@
 <?php
+include '../config/conexion_dma.php';
 
 class Productos extends Conectar{
     public function get_producto(){
@@ -7,7 +8,6 @@ class Productos extends Conectar{
         $sql = "SELECT * FROM tm_producto";
         $sql = $conectar -> prepare($sql);
         $sql->execute();
-
         return$resultado= $sql ->fetchAll();
     }
     public function get_producto_x_id($prod_id){
