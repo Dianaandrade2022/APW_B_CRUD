@@ -28,20 +28,20 @@
     <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
     <meta name="author" content="ThemePixels">
 
-    <title>Bracket Responsive Bootstrap 4 Admin Template</title>
+    <title>Mantenimiento</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <!--Estilos personalizados-->
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="public/css/estilos.css">
     <!-- vendor css -->
-    <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="lib/Ionicons/css/ionicons.css" rel="stylesheet">
-    <link href="lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
-    <link href="lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
+    <link href="public/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="public/lib/Ionicons/css/ionicons.css" rel="stylesheet">
+    <link href="public/lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link href="public/lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
 
     <!-- Bracket CSS -->
-    <link rel="stylesheet" href="css/bracket.css">
+    <link rel="stylesheet" href="public/css/bracket.css">
   </head>
 
   <body>
@@ -51,7 +51,7 @@
     <div class="br-sideleft overflow-y-auto">
       <label class="sidebar-label pd-x-15 mg-t-20">Navigation</label>
       <div class="br-sideleft-menu">
-        <a href="index.html" class="br-menu-link">
+        <a href="index_dma.php" class="br-menu-link">
           <div class="br-menu-item">
             <i class="menu-item-icon icon ion-ios-home-outline tx-22"></i>
             <span class="menu-item-label">Dashboard</span>
@@ -66,7 +66,7 @@
           </div><!-- menu-item -->
         </a><!-- br-menu-link -->
         <ul class="br-menu-sub nav flex-column">
-            <li class="nav-item"><a href="../MntProducto"class="nav-link">Producto</a></li>
+            <li class="nav-item"><a href="MntProducto"class="nav-link">Producto</a></li>
         </ul>
         </div><!--br-sidelft-menu-->
       <label class="sidebar-label pd-x-15 mg-t-25 mg-b-20 tx-info op-9">Information Summary</label>
@@ -680,7 +680,7 @@
     <div class="br-mainpanel">
       <div class="br-pageheader pd-y-15 pd-l-20">
         <nav class="breadcrumb pd-0 mg-0 tx-12">
-          <a class="breadcrumb-item" href="index.html">Bracket</a>
+          <a class="breadcrumb-item" href="index.html">Crud</a>
           <span class="breadcrumb-item active">Blank Page</span>
         </nav>
       </div><!-- br-pageheader -->
@@ -698,15 +698,16 @@
     </div><!-- br-mainpanel -->
     <!-- ########## END: MAIN PANEL ########## -->
 
-    <script src="../lib/jquery/jquery.js"></script>
-    <script src="../lib/popper.js/popper.js"></script>
-    <script src="../lib/bootstrap/bootstrap.js"></script>
-    <script src="../lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
-    <script src="../lib/moment/moment.js"></script>
-    <script src="../lib/jquery-ui/jquery-ui.js"></script>
-    <script src="../lib/jquery-switchbutton/jquery.switchButton.js"></script>
-    <script src="../lib/peity/jquery.peity.js"></script>
+    <script src="public/lib/jquery/jquery.js"></script>
+    <script src="public/lib/popper.js/popper.js"></script>
+    <script src="public/lib/bootstrap/bootstrap.js"></script>
+    <script src="public/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="public/lib/moment/moment.js"></script>
+    <script src="public/lib/jquery-ui/jquery-ui.js"></script>
+    <script src="public/lib/jquery-switchbutton/jquery.switchButton.js"></script>
+    <script src="public/lib/peity/jquery.peity.js"></script>
     <script src="../js/bracket.js"></script>
+
 
 
     <!-- Optional JavaScript -->
@@ -714,6 +715,5 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>
